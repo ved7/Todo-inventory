@@ -1,0 +1,141 @@
+body {
+    background-image: url("./pexels-tyler-lastovich-997443.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .heading {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    color:#fff;
+    text-shadow: 0 0 7px #1ca1b9, 0 0 8px #0000FF;
+    margin: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+  }
+  input {
+    border: 1px solid #3498db;
+    background-image: url("./testff.jpg");
+    background-size: cover;
+    text-align: center;
+    margin: 10 auto;
+    color: white;
+    width: 30%;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"] {
+    display: block;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', monospace;
+  }
+  input::placeholder { 
+    color:#fff;
+    text-shadow: 0 0 2px #2691d8, 0 0 5px #110ed6;
+    font-family: 'Courier New', monospace;
+    opacity: 0.8; 
+  }
+  input::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #3498db;
+    
+  }
+  input:hover {
+    color: #fff;
+  }
+  input::before {
+    top: 0%;
+    border-radius: 0 050% 50%;
+  }
+  .container {
+    text-align: center;
+  }
+  .btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    border-radius: 17px;
+  }
+  .btn1,
+  .btn2 {
+    color: #fff;
+    text-shadow: 0 0 5px #1ca1b9, 0 0 5px #0227a0;
+  }
+  .btn1:hover,
+  .btn2:hover {
+    color: #3498db;
+  
+  }
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: -1;
+    transition: 0.8s;
+  
+  }
+  .btn1::before,
+  .btn2::before {
+    top: 0%;
+    border-radius: 0 050% 50%;
+   
+  }
+  .btn1:hover::before,
+  .btn2:hover::before {
+    height: 0%;
+   
+  }
+  .checker {
+    
+    float:center;
+    transition: 0.8s;
+  }
+  .list {
+    white-space: nowrap;
+  }
+  
+  .list label {
+    padding-left: 0.4em;
+    position: relative;
+  }
+  .list {
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    background: none;
+    position: relative;
+    text-align: auto;
+    font-size: 20px;
+    text-shadow: 0 0 2px #1ca1b9, 0 0 3px #0227a0;
+   
+    background-size: cover;
+    color: white;
+    padding: 5px;
+  }
+  .lastText {
+    text-align: center;
+    
+    text-shadow: 0 0 7px #1ca1b9, 0 0 8px #0000FF;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    font-family: "Courier New", Courier, monospace;
+     text-decoration-line: overline;
+    text-decoration-thickness: 3px; 
+  }
+  
